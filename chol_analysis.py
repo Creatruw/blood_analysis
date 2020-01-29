@@ -40,6 +40,9 @@ def interface():
             return
         elif choice == "1":
             cholesterol_analysis()
+           
+def name_fun():
+    pass
 
 
 if __name__ == "__main__":
