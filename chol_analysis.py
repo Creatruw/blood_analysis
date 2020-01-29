@@ -41,6 +41,8 @@ def interface():
         elif choice == "1":
             cholesterol_analysis()
 
+def new_feature():
+    
 
 if __name__ == "__main__":
     interface()
