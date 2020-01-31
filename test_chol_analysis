@@ -1,0 +1,11 @@
+def test_HDL_analysis_normal():
+	from chol_analysis import HDL_analysis
+	answer = HDL_analysis(80)
+	expected = "Normal"
+	assert answer == expected
+	
+def test_HDL_analysis_bl():
+	from chol_analysis import HDL_analysis
+	answer = HDL_analysis(40)
+	expected = "borderline low"
+	assert answer == expected
